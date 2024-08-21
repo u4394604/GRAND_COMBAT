@@ -1,0 +1,43 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Фон черного цвета */
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 500px; /* Максимальная ширина для мобильных устройств */
+    margin: auto;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.play-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff4b2b;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+    background-color: #ff6f61;
+}
